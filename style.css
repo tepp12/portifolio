@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "VCR OSD MONO";
+    src: url(./assets/fonts/VCR_OSD_MONO.ttf);
+}
+
+@font-face {
+    font-family: "Rainy Hearts";
+    src: url(./assets/fonts/rainyhearts.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pixel Operator";
+    src: url(./assets/fonts/PixelOperatorMonoHB.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    width:100%;
+    background-color: blue;
+    padding: 1rem 2rem;
+    z-index: 1;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+p {
+    font-family: "Pixel OPERATOR", monospace;
+    color: white;
+}
+
+a {
+    color:gray;
+    font-family: "Pixel OPERATOR", monospace;
+    text-decoration: none;
+}
+
+.texto-nome{
+    margin:0;
+    font-size: 3rem;
+}
+
+.texto-cargo {
+    margin:0;
+    font-size:1.2rem
+}
+
+.images-div{
+    display: flex;
+    gap: 1rem;
+}
+
+.main-separador{
+    display: flex;
+    flex-direction: column;
+    width: 90rem;
+    margin: 1rem;
+    background-color: red;
+    height:100vh
+}
+
+
+.links-div{
+    display: flex;
+    gap: 1rem;
+}
