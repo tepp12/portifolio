@@ -7,24 +7,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="animatedBackground"></div>
     <header>
-        <div class="links-div">
-            <a class="link-header">Contato</a>
-            <a class="link-header">Projetos</a>
+        <div id="links-div">
+            <a href="./email.html" class="link-header">Contato</a>
+            <a href="./projetos.html" class="link-header">Projetos</a>
         </div>
-        <div class="images-div">
-            <img class="img-header"></img>
-            <img class="img-header"></img>
+        <div id="images-div">
+            <img alt="" class="img-header"></img>
+            <img alt="" class="img-header"></img>
         </div>
     </header>
     <main>
-        <div class="main-separador">
-            <p class="texto-nome">Guilherme Ribeiro</p>
-            <p class="texto-cargo">Estudante</p>
-            <p class="texto-descrição">Olá, sou Guilherme Ribeiro, um desenvolvedor de jogos aspirante e </p>
-            <p class="texto-descrição"></p>
+        <div id="main-separador">
+            <div id="container-titulo">
+                <p id="texto-nome">Guilherme Ribeiro</p>
+                <p id="texto-cargo">Estudante</p>
+            </div>
+            <div id="container-descrições">
+                <p class="texto-descrição">Olá, sou Guilherme Ribeiro, um desenvolvedor de jogos aspirante e
+                    estou cursando Ciência da Computação para me professionalizar no mercado.
+                </p>
+                <p class="texto-descrição">
+                </p>
+            </div>
+            <div id="container-todas-skills">
+                <div class="container-skill">
+                    <p class="texto-descrição">Intermediário em</p>
+                    <div class="skill">
+                        <img alt="Logo da linguagem Lua" src="./assets/images/Lua-Logo.svg.png" class="img-skill"></img>
+                        <p class="texto-skill">Lua</p>
+                    </div>
+                </div>
+                <div class="container-skill">
+                    <p class="texto-descrição">Iniciante em</p>
+                    <div class="skill">
+                        <img alt="Logo da linguagem JavaScript" src="./assets/images/Unofficial_JavaScript_logo_2.svg.png" class="img-skill"></img>
+                        <p class="texto-skill">Javascript</p>
+                    </div>
+                </div>
+        </div>
+        <footer>
+            <p class="texto-footer">© Guilherme Ribeiro</p>
+        </footer>
         </div>
     </main>
 </body>
 <script src="script.js"></script>
+<script data-cat="./assets/gifs/oneko.gif" src="./oneko.js"></script>
 </html>
