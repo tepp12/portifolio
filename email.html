@@ -7,16 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="https://api.web3forms.com/submit" method="POST" id="form"></form>
-        <input type="hidden" name="access_key" value="0f2f13ec-3da2-4bd4-9e36-d1bcef764f4d">
-        <label>Nome</label>
-        <input type="text" name="name" required>
-        <label>Email</label>
-        <input type="email" name="email" required>
-        <label>Mensagem</label>
-        <textarea name="message" required></textarea>
-        <input type="hidden" name="redirect" value="https://web3forms.com/success">
-        <button type="submit">Enviar</button>
-    </form>    
+    <header>
+        <div id="links-div">
+            <a href="./index.html" class="link-header">Sobre</a>
+            <a href="./projetos.html" class="link-header">Projetos</a>
+        </div>
+        <div id="images-div">
+            <img alt="" class="img-header"></img>
+            <img alt="" class="img-header"></img>
+        </div>
+    </header>
+    <main>
+        <p id="texto-contato">Deixe sua mensagem</p>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="0f2f13ec-3da2-4bd4-9e36-d1bcef764f4d">
+            <div class="container-email">
+                <label>Nome</label>
+                <input type="text" name="name" required>
+            </div>
+            <label>Email</label>
+            <input type="email" name="email" required>
+            <label>Mensagem</label>
+            <textarea name="message" required></textarea>
+            <button type="submit" id="button-submit">Enviar</button>
+        </form>
+        <footer>
+            <p class="texto-footer">© Guilherme Ribeiro</p>
+        </footer>
+    </main>
 </body>>
 </html>

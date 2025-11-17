@@ -14,7 +14,6 @@
     src: url(./assets/fonts/PixelOperatorMonoHB.ttf);
 }
 
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -59,6 +58,12 @@ table {
 	border-spacing: 0;
 }
 
+form {
+    margin-top:1rem;
+    flex-direction: column;
+    display: flex;
+}
+
 #animatedBackground {
     /* --- Your background styles --- */
     background-image: url("./assets/images/depths.png");
@@ -83,7 +88,7 @@ table {
 }
 
 label {
-        font-family: "Pixel OPERATOR", monospace;
+    font-family: "Pixel OPERATOR", monospace;
     color:white;
 }
 
@@ -95,6 +100,7 @@ body {
     background-color: black;
     margin: 0;
 }
+
 
 header {
     justify-content: flex-end;
@@ -138,6 +144,21 @@ a {
     gap:2rem;
 }
 
+#texto-contato {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#button-submit {
+    margin-top:1rem;
+    border-radius:2px;
+    background-color: black;
+    color:white;
+    font-family: "Pixel OPERATOR", monospace;
+    font-size:1rem;
+    margin-bottom: 1rem;
+}
+
 #container-titulo {
     margin-top: 0.5rem;
     margin-left: 1rem;
@@ -151,6 +172,11 @@ a {
 #texto-cargo {
     margin:0;
     font-size:1.2rem
+}
+
+.container-email {
+    display: flex;
+    flex-direction: column;
 }
 
 .texto-descrição {
